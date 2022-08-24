@@ -3,9 +3,9 @@
 	"title": "Scum and Villainy GM Screen",
 	"description": "A community made GM Screen to help run Scum and Villainy games in Foundry VTT.",
 	"author": "RegisIan",
-	"url": "https://gitlab.com/RegisIan/sav-gm-screen",
-	"readme": "https://gitlab.com/RegisIan/sav-gm-screen/-/raw/main/README.md",
-	"version": "1.0.3",
+	"url": "https://github.com/id-wallace/SaV-GM-Screen",
+	"readme": "https://github.com/id-wallace/SaV-GM-Screen/blob/main/README.md",
+	"version": "1.0",
 	"minimumCoreVersion": "8",
 	"compatibleCoreVersion": "9",
 	"scripts": [
@@ -41,7 +41,7 @@
 		"scum-and-villainy"
 		],
 	"socket": false,
-	"manifest": "https://gitlab.com/RegisIan/sav-gm-screen/-/raw/main/module.json",
-	"download": "https://gitlab.com/RegisIan/sav-gm-screen/-/archive/1.0.3/sav-gm-screen-1.0.3.zip",
+	"manifest": "https://raw.githubusercontent.com/id-wallace/SaV-GM-Screen/main/module.json",
+	"download": "https://github.com/id-wallace/SaV-GM-Screen/releases/download/1.0/module.zip",
 	"coreTranslation": false
 }
