@@ -1,40 +1,46 @@
 {
-	"name": "SaV-GM-Screen",
+	"id": "SaV-GM-Screen",
 	"title": "Scum and Villainy GM Screen",
 	"description": "A community made GM Screen to help run Scum and Villainy games in Foundry VTT.",
-	"author": "RegisIan",
+	"authors": [
+		{
+		"name": "RegisIan"
+		}
+		],
 	"url": "https://github.com/id-wallace/SaV-GM-Screen",
 	"readme": "https://github.com/id-wallace/SaV-GM-Screen/blob/main/README.md",
-	"version": "1.0",
-	"minimumCoreVersion": "8",
-	"compatibleCoreVersion": "9",
+	"version": "1.1",
+	"compatibility": {
+		"minimum": "9",
+		"verified": "10"
+		},
 	"scripts": [
 		"scripts/resize.js"
 		],
 	"packs": [
 		{
-		  "label": "SaV GM Screen",
-		  "entity": "JournalEntry",
-		  "name": "sav-gm-screen",
-		  "path": "packs/sav-gm-screen.db",
-		  "module": "SaV-GM-Screen",
-		  "private": false
+		"label": "SaV GM Screen",
+		"type": "JournalEntry",
+		"name": "sav-gm-screen",
+		"path": "packs/sav-gm-screen.db",
+		"module": "SaV-GM-Screen",
+		"private": false
 		},
 		{
-		  "label": "SaV GM Screen - Rollable Tables",
-		  "entity": "RollTable",
-		  "name": "sav-gm-screen-rollable-tables",
-		  "path": "packs/sav-gm-screen-rollable-tables.db",
-		  "module": "SaV-GM-Screen",
-		  "private": false
+		"label": "SaV GM Screen - Rollable Tables",
+		"type": "RollTable",
+		"name": "sav-gm-screen-rollable-tables",
+		"path": "packs/sav-gm-screen-rollable-tables.db",
+		"module": "SaV-GM-Screen",
+		"private": false
 		},
 		{
-		  "label": "SaV GM Screen - Macro",
-		  "entity": "Macro",
-		  "name": "sav-gm-screen-macro",
-		  "path": "packs/sav-gm-screen-macro.db",
-		  "module": "SaV-GM-Screen",
-		  "private": false
+		"label": "SaV GM Screen - Macro",
+		"type": "Macro",
+		"name": "sav-gm-screen-macro",
+		"path": "packs/sav-gm-screen-macro.db",
+		"module": "SaV-GM-Screen",
+		"private": false
 		}
 		],
 	"system": [
