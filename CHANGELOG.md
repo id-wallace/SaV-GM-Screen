@@ -1,5 +1,8 @@
 # Patch Notes:
 
+## Version 1.2.0
+Reformatted journal structure to utilise new V10 formatting.
+
 ## Version 1.1.0
 Updated file structure for FoundryVTT V10.
 
