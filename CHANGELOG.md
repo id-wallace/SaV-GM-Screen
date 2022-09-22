@@ -1,5 +1,8 @@
 # Patch Notes:
 
+## Version 1.2.1
+Fixed page linking error on the Flashback Cost page.
+
 ## Version 1.2.0
 Reformatted journal structure to utilise new V10 formatting.
 
