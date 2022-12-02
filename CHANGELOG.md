@@ -1,5 +1,8 @@
 # Patch Notes:
 
+## Version 1.2.2
+Updated "system" clause to new "relationship" clause
+
 ## Version 1.2.1
 Fixed page linking error on the Flashback Cost page.
 
