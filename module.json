@@ -35,9 +35,22 @@
 		"private": false
 		}
 		],
-	"system": [
-		"scum-and-villainy"
+	"relationships": {
+		"systems": [
+			{
+			"id": "scum-and-villainy",
+			"type": "system",
+			"compatibility": {}
+			}
 		],
+		"requires": [
+			{
+			"id": "scum-and-villainy",
+			"type": "system",
+			"compatibility": {}
+			}
+		]
+		},
 	"socket": false,
 	"manifest": "https://raw.githubusercontent.com/id-wallace/SaV-GM-Screen/main/module.json",
 	"download": "https://github.com/id-wallace/SaV-GM-Screen/archive/refs/tags/v1.2.1.zip",
